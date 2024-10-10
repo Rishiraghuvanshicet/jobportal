@@ -1,0 +1,96 @@
+body{
+  background-image: url('https://imgs.search.brave.com/OgoKRY7vjkY4yU0Ftgji06OcjgSymDtoq1s3sim6Fns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzQyLzA4LzYx/LzM2MF9GXzg0MjA4/NjEyMV9UU2ZzRlRN/YWZNTHdCTW9CcHl1/UTl6T0lxT2hYRTlU/aS5qcGc');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ #switch-btn{
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(164, 178, 215);
+   width: 200px;
+   text-align: center;
+   border: none;
+   border-radius: 30px;
+   margin: 5px;
+   }
+
+   #homepage_heading{
+       font-family: 'Times New Roman', Times, serif;
+       size: 24px;
+       background-color: rgba(88, 132, 255, 0.1);
+       filter: blur(0px);
+       box-shadow: 1px 1px 2px rgb(100, 89, 255);
+       text-align: center;
+       margin-left: 200px;
+       margin-right: 200px;
+     }
+     #homepage_choice{
+       background-color: rgb(88, 132, 255, 0.1);
+       height:600px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+       margin-top: 100px;
+     }
+
+ #student-login-form{
+   background-color: rgba(81, 112, 195, 0.353);
+   margin-top: 100px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight:bolder;
+   font-size:20px;
+   display: flex;
+   justify-content: center;
+ }
+ #Company_home_page{
+   background-color: beige;
+   display: flex;
+   flex-direction: row;
+ }
+ #Company_profile{
+   display: flex;
+   padding: 20px;
+   gap: 20px;
+   flex-direction: column;
+   background-color: black;
+   color: azure;   
+   min-height:1000px;
+   min-width: 300px;
+   padding-top: 250px;
+ }
+
+ #Company_profile_result{
+   display: flex;
+   flex-direction: column;
+ }
+ #job_form_div{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ #job_form{ 
+  padding: 5px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+ }
+ #job_list_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ #job_list{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  border-radius: 30px;
+  width: 70%;
+ }
